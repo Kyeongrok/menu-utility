@@ -37,7 +37,7 @@ def csv_to_json():
     with open('menu.json', 'w', encoding='utf-8') as jsonfile:
         return json.dump(menu_data, jsonfile, ensure_ascii=False, indent=2)
 
-def create_common_menu(categories=['common']):
+def create_filtered_menu(categories=['common']):
     # Read the menu data
     with open('menu.json', 'r', encoding='utf-8') as f:
         menu_data = json.load(f)
@@ -49,6 +49,9 @@ def create_common_menu(categories=['common']):
     menu = {
         "name": "루트",
         "code": "ROOT",
+        "idx": 0,
+        "parent_idx": None,
+        "route": "/",
         "child": []
     }
     
@@ -59,7 +62,10 @@ def create_common_menu(categories=['common']):
             if item['parent_idx'] == parent_idx:
                 child = {
                     "name": item['항목'],
-                    "code": item['코드']
+                    "code": item['코드'],
+                    "idx": item['idx'],
+                    "parent_idx": item['parent_idx'],
+                    "route": item['Route']
                 }
                 child_items = build_children(item['idx'])
                 if child_items:
@@ -72,9 +78,43 @@ def create_common_menu(categories=['common']):
     
     return menu
 
+def flatten_menu(menu_data, parent_id=None, result=None):
+    if result is None:
+        result = []
+        
+    # Add current node
+    current = {
+        "name": menu_data["name"],
+        "code": menu_data["code"],
+        "idx": menu_data["idx"],
+        "parent_idx": menu_data["parent_idx"],
+        "parent_code": parent_id,
+        "route": menu_data["route"],
+    }
+    result.append(current)
+    
+    # Process children if they exist
+    if "child" in menu_data:
+        for child in menu_data["child"]:
+            flatten_menu(child, menu_data["code"], result)
+            
+    return result
+
+
 if __name__ == "__main__":
-    # Example usage with multiple categories
-    menu = create_common_menu(['common', 'mv'])
+
+    menu = create_filtered_menu(['common', 'mv'])
     with open('filtered_menu.json', 'w', encoding='utf-8') as f:
         json.dump(menu, f, ensure_ascii=False, indent=2)
-    # csv_to_json()
+
+    # Usage example:
+    with open('filtered_menu.json', 'r', encoding='utf-8') as f:
+        menu_data = json.load(f)
+        
+    flat_menu = flatten_menu(menu_data)
+
+    # Write flattened result to file
+    with open('flattened_menu.json', 'w', encoding='utf-8') as f:
+        json.dump(flat_menu, f, ensure_ascii=False, indent=2)
+    # Example usage with multiple categories
+    # # csv_to_json()
