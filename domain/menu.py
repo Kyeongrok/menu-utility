@@ -25,11 +25,7 @@ class Menu:
     def print_tree(self):
         for item in self.flat_list:
             # Convert name to uppercase English code
-            code = item["name"].upper()
-            if code == "루트":
-                code = "ROOT"
-            elif code == "홈":
-                code = "HOME"
+            code = item["code"].upper()
             
             # Generate URL from name
             url = "/"

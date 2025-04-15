@@ -1,0 +1,2156 @@
+{
+  "쓰리뷰": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "PLC",
+        "code": "PLC",
+        "child": [
+          {
+            "name": "현황",
+            "code": "PANEL_BOARD_STATUS"
+          },
+          {
+            "name": "차트",
+            "code": "PANEL_BOARD_CHART"
+          },
+          {
+            "name": "기록",
+            "code": "PANEL_BOARD_RECORD"
+          },
+          {
+            "name": "알람",
+            "code": "PLC_ALARM"
+          },
+          {
+            "name": "알람 코드",
+            "code": "PLC_ALARM_CODE"
+          }
+        ]
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "분전반",
+        "code": "SETTINGS_PANEL_BOARD",
+        "child": [
+          {
+            "name": "현황",
+            "code": "PANEL_BOARD_STATUS"
+          },
+          {
+            "name": "기록",
+            "code": "PANEL_BOARD_RECORD"
+          },
+          {
+            "name": "차트",
+            "code": "PANEL_BOARD_CHART"
+          }
+        ]
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      },
+      {
+        "name": "주간 리포트",
+        "code": "WEEKLY_REPORT"
+      },
+      {
+        "name": "월간 리포트",
+        "code": "MONTHLY_REPORT"
+      }
+    ]
+  },
+  "대양볼트": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      },
+      {
+        "name": "주간 리포트",
+        "code": "WEEKLY_REPORT"
+      },
+      {
+        "name": "월간 리포트",
+        "code": "MONTHLY_REPORT"
+      }
+    ]
+  },
+  "보원메탈": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "보원오토텍": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      },
+      {
+        "name": "주간 리포트",
+        "code": "WEEKLY_REPORT"
+      },
+      {
+        "name": "월간 리포트",
+        "code": "MONTHLY_REPORT"
+      }
+    ]
+  },
+  "삼진정공": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      },
+      {
+        "name": "주간 리포트",
+        "code": "WEEKLY_REPORT"
+      },
+      {
+        "name": "월간 리포트",
+        "code": "MONTHLY_REPORT"
+      }
+    ]
+  },
+  "삼진정공_전주": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      },
+      {
+        "name": "월간 리포트",
+        "code": "MONTHLY_REPORT"
+      }
+    ]
+  },
+  "선일다이파스": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "에스제이에프": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "에스탑": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "PLC",
+        "code": "PLC",
+        "child": [
+          {
+            "name": "현황",
+            "code": "PANEL_BOARD_STATUS"
+          },
+          {
+            "name": "차트",
+            "code": "PANEL_BOARD_CHART"
+          },
+          {
+            "name": "기록",
+            "code": "PANEL_BOARD_RECORD"
+          },
+          {
+            "name": "알람",
+            "code": "PLC_ALARM"
+          },
+          {
+            "name": "알람 코드",
+            "code": "PLC_ALARM_CODE"
+          }
+        ]
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "우성포마": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "정원금속": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "케이에너지세이브(주)": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "텔스타": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "분전반",
+        "code": "SETTINGS_PANEL_BOARD",
+        "child": [
+          {
+            "name": "현황",
+            "code": "PANEL_BOARD_STATUS"
+          },
+          {
+            "name": "기록",
+            "code": "PANEL_BOARD_RECORD"
+          },
+          {
+            "name": "차트",
+            "code": "PANEL_BOARD_CHART"
+          },
+          {
+            "name": "한전",
+            "code": "KEPCO",
+            "child": [
+              {
+                "name": "현황",
+                "code": "PANEL_BOARD_STATUS"
+              },
+              {
+                "name": "기록",
+                "code": "PANEL_BOARD_RECORD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "효동 기계": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "효진": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "Metaltork": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "NAGANO": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "SRA": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  },
+  "TAIYO_NUT": {
+    "name": "루트",
+    "code": "ROOT",
+    "child": [
+      {
+        "name": "홈",
+        "code": "HOME"
+      },
+      {
+        "name": "차트",
+        "code": "PANEL_BOARD_CHART",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "ESG",
+            "code": "CHART_ESG"
+          },
+          {
+            "name": "생산",
+            "code": "CHART_PRODUCTION"
+          }
+        ]
+      },
+      {
+        "name": "MV",
+        "code": "MV"
+      },
+      {
+        "name": "설비",
+        "code": "SETTINGS_MACHINE",
+        "child": [
+          {
+            "name": "분석",
+            "code": "MACHINE_ANALYSIS"
+          }
+        ]
+      },
+      {
+        "name": "기록",
+        "code": "PANEL_BOARD_RECORD"
+      },
+      {
+        "name": "설정",
+        "code": "SETTINGS",
+        "child": [
+          {
+            "name": "설비",
+            "code": "SETTINGS_MACHINE"
+          },
+          {
+            "name": "터미널",
+            "code": "SETTINGS_TERMINAL"
+          },
+          {
+            "name": "센서",
+            "code": "SETTINGS_SENSOR"
+          },
+          {
+            "name": "데이터 타입",
+            "code": "SETTINGS_DATATYPE"
+          },
+          {
+            "name": "공장",
+            "code": "SETTINGS_FACTORY"
+          },
+          {
+            "name": "회사",
+            "code": "SETTINGS_COMPANY"
+          },
+          {
+            "name": "분전반",
+            "code": "SETTINGS_PANEL_BOARD",
+            "child": [
+              {
+                "name": "분전반 관리",
+                "code": "SETTINGS_PANEL_BOARD_MANAGE"
+              },
+              {
+                "name": "분전반-설비 관리",
+                "code": "SETTINGS_PANEL_BOARD_FACILITY"
+              },
+              {
+                "name": "목표 Peak 관리",
+                "code": "SETTINGS_PANEL_BOARD_PEAK"
+              }
+            ]
+          },
+          {
+            "name": "사용자",
+            "code": "SETTINGS_USER"
+          },
+          {
+            "name": "알림",
+            "code": "SETTINGS_NOTIFICATION"
+          },
+          {
+            "name": "모바일 기기",
+            "code": "SETTINGS_MOBILE"
+          },
+          {
+            "name": "앱 설정",
+            "code": "SETTINGS_APP"
+          }
+        ]
+      },
+      {
+        "name": "사용자 정보",
+        "code": "USER_INFO"
+      }
+    ]
+  }
+}
