@@ -8,7 +8,7 @@
     "parent_idx": null,
     "항목": "루트",
     "코드": "ROOT",
-    "Route": null
+    "Route": "/"
   },
   {
     "No": 2,
@@ -31,7 +31,7 @@
     "idx": 2,
     "parent_idx": 0,
     "항목": "차트",
-    "코드": "PANEL_BOARD_CHART",
+    "코드": "CHART",
     "Route": "/chart"
   },
   {
@@ -44,7 +44,7 @@
     "parent_idx": 2,
     "항목": "설비",
     "코드": "CHART_MACHINE",
-    "Route": "/chart?tab=machine"
+    "Route": "/chart/machine"
   },
   {
     "No": 5,
@@ -56,7 +56,7 @@
     "parent_idx": 2,
     "항목": "ESG",
     "코드": "CHART_ESG",
-    "Route": "/chart?tab=esg"
+    "Route": "/chart/esg"
   },
   {
     "No": 6,
@@ -68,7 +68,7 @@
     "parent_idx": 2,
     "항목": "생산",
     "코드": "CHART_PRODUCTION",
-    "Route": "/chart?tab=production"
+    "Route": "/chart/production"
   },
   {
     "No": 7,
@@ -100,7 +100,7 @@
     "idx": 8,
     "parent_idx": 7,
     "항목": "현황(PLC)",
-    "코드": "PLC_STATUS",
+    "코드": "PLC_DASHBOARD",
     "Route": "/plc"
   },
   {
@@ -122,7 +122,7 @@
     "idx": 10,
     "parent_idx": 7,
     "항목": "기록(PLC)",
-    "코드": "PLC_RECORD",
+    "코드": "PLC_LOG",
     "Route": "/plc/log"
   },
   {
@@ -133,7 +133,7 @@
     "idx": 11,
     "parent_idx": 7,
     "항목": "알람(PLC)",
-    "코드": "PLC_ALARM",
+    "코드": "PLC_ALARM_HISTORY",
     "Route": "/plc/history"
   },
   {
@@ -179,7 +179,7 @@
     "idx": 15,
     "parent_idx": 0,
     "항목": "분전반",
-    "코드": "PANEL_BOARD",
+    "코드": "PANELBOARD",
     "Route": "/panel-board"
   },
   {
@@ -190,7 +190,7 @@
     "idx": 16,
     "parent_idx": 15,
     "항목": "현황(분전반)",
-    "코드": "PANEL_BOARD_STATUS",
+    "코드": "PANELBOARD_STATUS",
     "Route": "/panel-board/daily"
   },
   {
@@ -201,7 +201,7 @@
     "idx": 17,
     "parent_idx": 15,
     "항목": "기록(분전반)",
-    "코드": "PANEL_BOARD_LOG",
+    "코드": "PANELBOARD_LOG",
     "Route": "/panel-board/log"
   },
   {
@@ -212,7 +212,7 @@
     "idx": 18,
     "parent_idx": 15,
     "항목": "차트(분전반)",
-    "코드": "PANEL_BOARD_CHART",
+    "코드": "PANELBOARD_CHART",
     "Route": "/panel-board/chart"
   },
   {
@@ -223,7 +223,7 @@
     "idx": 19,
     "parent_idx": 15,
     "항목": "한전(분전반)",
-    "코드": "PANEL_BOARD_KEPCO",
+    "코드": "PANELBOARD_KEPCO",
     "Route": "/panel-board/kepco"
   },
   {
@@ -233,31 +233,32 @@
     ],
     "idx": 20,
     "parent_idx": 19,
-    "항목": "기록(한전)",
-    "코드": "PANEL_BOARD_KEPCO_LOG",
-    "Route": "/panel-board/kepco/log"
+    "항목": "한전(분전반)",
+    "코드": "PANELBOARD_KEPCO_DASHBOARD",
+    "Route": "/panel-board/kepco"
   },
   {
     "No": 22,
     "분류": [
-      "common"
+      "panel_board"
     ],
     "idx": 21,
-    "parent_idx": 0,
-    "항목": "설정",
-    "코드": "SETTINGS",
-    "Route": "/setting"
+    "parent_idx": 19,
+    "항목": "기록(한전)",
+    "코드": "PANELBOARD_KEPCO_LOG",
+    "Route": "/panel-board/kepco/log"
   },
   {
     "No": 23,
     "분류": [
-      "common"
+      "mv",
+      "machiney"
     ],
     "idx": 22,
-    "parent_idx": 21,
-    "항목": "설비",
-    "코드": "SETTINGS_MACHINE",
-    "Route": "/setting/machine"
+    "parent_idx": 0,
+    "항목": "기록",
+    "코드": "LOG",
+    "Route": "/log"
   },
   {
     "No": 24,
@@ -265,10 +266,10 @@
       "common"
     ],
     "idx": 23,
-    "parent_idx": 21,
-    "항목": "터미널",
-    "코드": "SETTINGS_TERMINAL",
-    "Route": "/setting/terminal"
+    "parent_idx": 0,
+    "항목": "설정",
+    "코드": "SETTING",
+    "Route": "/setting"
   },
   {
     "No": 25,
@@ -276,10 +277,10 @@
       "common"
     ],
     "idx": 24,
-    "parent_idx": 21,
-    "항목": "센서",
-    "코드": "SETTINGS_SENSOR",
-    "Route": "/setting/sensor"
+    "parent_idx": 23,
+    "항목": "설비",
+    "코드": "SETTING_MACHINE",
+    "Route": "/setting/machine"
   },
   {
     "No": 26,
@@ -287,10 +288,10 @@
       "common"
     ],
     "idx": 25,
-    "parent_idx": 21,
-    "항목": "데이터 타입",
-    "코드": "SETTINGS_DATATYPE",
-    "Route": "/setting/data-type"
+    "parent_idx": 23,
+    "항목": "터미널",
+    "코드": "SETTING_TERMINAL",
+    "Route": "/setting/terminal"
   },
   {
     "No": 27,
@@ -298,10 +299,10 @@
       "common"
     ],
     "idx": 26,
-    "parent_idx": 21,
-    "항목": "공장",
-    "코드": "SETTINGS_FACTORY",
-    "Route": "/setting/factory"
+    "parent_idx": 23,
+    "항목": "센서",
+    "코드": "SETTING_SENSOR",
+    "Route": "/setting/sensor"
   },
   {
     "No": 28,
@@ -309,10 +310,10 @@
       "common"
     ],
     "idx": 27,
-    "parent_idx": 21,
-    "항목": "회사",
-    "코드": "SETTINGS_COMPANY",
-    "Route": "/setting/company"
+    "parent_idx": 23,
+    "항목": "데이터 타입",
+    "코드": "SETTING_DATATYPE",
+    "Route": "/setting/data-type"
   },
   {
     "No": 29,
@@ -320,10 +321,10 @@
       "common"
     ],
     "idx": 28,
-    "parent_idx": 21,
-    "항목": "분전반",
-    "코드": "SETTINGS_PANEL_BOARD",
-    "Route": "/setting/panel-board"
+    "parent_idx": 23,
+    "항목": "공장",
+    "코드": "SETTING_FACTORY",
+    "Route": "/setting/factory"
   },
   {
     "No": 30,
@@ -331,10 +332,10 @@
       "common"
     ],
     "idx": 29,
-    "parent_idx": 28,
-    "항목": "분전반 관리",
-    "코드": "SETTINGS_PANEL_BOARD_MANAGE",
-    "Route": "/setting/panel-board/management"
+    "parent_idx": 23,
+    "항목": "회사",
+    "코드": "SETTING_COMPANY",
+    "Route": "/setting/company"
   },
   {
     "No": 31,
@@ -342,10 +343,10 @@
       "common"
     ],
     "idx": 30,
-    "parent_idx": 28,
-    "항목": "분전반-설비 관리",
-    "코드": "SETTINGS_PANEL_BOARD_FACILITY",
-    "Route": "/setting/panel-board/equipment"
+    "parent_idx": 23,
+    "항목": "분전반",
+    "코드": "SETTING_PANELBOARD",
+    "Route": "/setting/panel-board"
   },
   {
     "No": 32,
@@ -353,10 +354,10 @@
       "common"
     ],
     "idx": 31,
-    "parent_idx": 28,
-    "항목": "목표 Peak 관리",
-    "코드": "SETTINGS_PANEL_BOARD_PEAK",
-    "Route": "/setting/panel-board/target-peak"
+    "parent_idx": 30,
+    "항목": "분전반 관리",
+    "코드": "SETTING_PANELBOARD_MANAGEMENT",
+    "Route": "/setting/panel-board/management"
   },
   {
     "No": 33,
@@ -364,10 +365,10 @@
       "common"
     ],
     "idx": 32,
-    "parent_idx": 21,
-    "항목": "사용자",
-    "코드": "SETTINGS_USER",
-    "Route": "/setting/user"
+    "parent_idx": 30,
+    "항목": "분전반-설비 관리",
+    "코드": "SETTING_PANELBOARD_EQUIPMENT",
+    "Route": "/setting/panel-board/equipment"
   },
   {
     "No": 34,
@@ -375,10 +376,10 @@
       "common"
     ],
     "idx": 33,
-    "parent_idx": 21,
-    "항목": "알림",
-    "코드": "SETTINGS_NOTIFICATION",
-    "Route": "/setting/notification"
+    "parent_idx": 30,
+    "항목": "목표 Peak 관리",
+    "코드": "SETTINGS_PANELBOARD_TARGETPEAK",
+    "Route": "/setting/panel-board/target-peak"
   },
   {
     "No": 35,
@@ -386,10 +387,10 @@
       "common"
     ],
     "idx": 34,
-    "parent_idx": 21,
-    "항목": "모바일 기기",
-    "코드": "SETTINGS_MOBILE",
-    "Route": "/setting/mobile-device"
+    "parent_idx": 23,
+    "항목": "사용자",
+    "코드": "SETTING_USER",
+    "Route": "/setting/user"
   },
   {
     "No": 36,
@@ -397,10 +398,10 @@
       "common"
     ],
     "idx": 35,
-    "parent_idx": 21,
-    "항목": "앱 설정",
-    "코드": "SETTINGS_APP",
-    "Route": "/setting/app-config"
+    "parent_idx": 23,
+    "항목": "알림",
+    "코드": "SETTING_NOTIFICATION",
+    "Route": "/setting/notification"
   },
   {
     "No": 37,
@@ -408,10 +409,10 @@
       "common"
     ],
     "idx": 36,
-    "parent_idx": 0,
-    "항목": "사용자 정보",
-    "코드": "USER_INFO",
-    "Route": "/user/info"
+    "parent_idx": 23,
+    "항목": "모바일 기기",
+    "코드": "SETTING_MOBILEDEVICE",
+    "Route": "/setting/mobile-device"
   },
   {
     "No": 38,
@@ -419,10 +420,10 @@
       "common"
     ],
     "idx": 37,
-    "parent_idx": 0,
-    "항목": "주간 리포트",
-    "코드": "WEEKLY_REPORT",
-    "Route": null
+    "parent_idx": 23,
+    "항목": "앱 설정",
+    "코드": "SETTING_APPCONFIG",
+    "Route": "/setting/app-config"
   },
   {
     "No": 39,
@@ -430,6 +431,61 @@
       "common"
     ],
     "idx": 38,
+    "parent_idx": 23,
+    "항목": "메뉴",
+    "코드": "SETTING_MENU",
+    "Route": "/setting/menu"
+  },
+  {
+    "No": 40,
+    "분류": [
+      "common"
+    ],
+    "idx": 39,
+    "parent_idx": 38,
+    "항목": "메뉴관리",
+    "코드": "SETTING_MENU_CRUD",
+    "Route": "/setting/menu/crud"
+  },
+  {
+    "No": 41,
+    "분류": [
+      "common"
+    ],
+    "idx": 40,
+    "parent_idx": 38,
+    "항목": "메뉴매핑",
+    "코드": "SETTING_MENU_MAPPING",
+    "Route": "/setting/menu/mapping"
+  },
+  {
+    "No": 42,
+    "분류": [
+      "common"
+    ],
+    "idx": 41,
+    "parent_idx": 0,
+    "항목": "사용자 정보",
+    "코드": "USER_INFO",
+    "Route": "/user/info"
+  },
+  {
+    "No": 43,
+    "분류": [
+      "common"
+    ],
+    "idx": 42,
+    "parent_idx": 0,
+    "항목": "주간 리포트",
+    "코드": "WEEKLY_REPORT",
+    "Route": null
+  },
+  {
+    "No": 44,
+    "분류": [
+      "common"
+    ],
+    "idx": 43,
     "parent_idx": 0,
     "항목": "월간 리포트",
     "코드": "MONTHLY_REPORT",
