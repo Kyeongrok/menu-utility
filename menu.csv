@@ -1,5 +1,5 @@
 No,분류,idx,parent_idx,항목,코드,Route
-1,common,0,null,루트,ROOT,
+1,common,0,null,루트,ROOT,/
 2,mv&machiney,1,0,홈,HOME,/dashboard
 3,mv&machiney,2,0,차트,CHART,/chart
 4,mv&machiney,3,2,설비,CHART_MACHINE,/chart?tab=machine

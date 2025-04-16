@@ -37,9 +37,9 @@ def csv_to_json():
     with open('menu.json', 'w', encoding='utf-8') as jsonfile:
         return json.dump(menu_data, jsonfile, ensure_ascii=False, indent=2)
 
-def create_filtered_menu(categories=['common']):
+def create_filtered_menu(file_name='menu.json', categories=['common']):
     # Read the menu data
-    with open('menu.json', 'r', encoding='utf-8') as f:
+    with open(file_name, 'r', encoding='utf-8') as f:
         menu_data = json.load(f)
     
     # Filter items by categories - check for any common elements between lists
@@ -102,19 +102,26 @@ def flatten_menu(menu_data, parent_id=None, result=None):
 
 
 if __name__ == "__main__":
+    l1 = [
+        ["mv"],
+        ["machiney"],
+        ["plc"],
+        ["panel_board"],
+        ["mv", "machiney"],
+        ["mv", "plc"],
+        ["mv", "panel_board"],
+        ["machiney", "plc"],
+        ["machiney", "panel_board"],
+        ["plc", "panel_board"],
+        ["mv", "machiney", "plc"],
+        ["mv", "machiney", "panel_board"],
+        ["mv", "plc", "panel_board"],
+        ["machiney", "plc", "panel_board"],
+        ["mv", "machiney", "plc", "panel_board"]
+    ]
 
-    menu = create_filtered_menu(['common', 'mv'])
-    with open('filtered_menu.json', 'w', encoding='utf-8') as f:
-        json.dump(menu, f, ensure_ascii=False, indent=2)
-
-    # Usage example:
-    with open('filtered_menu.json', 'r', encoding='utf-8') as f:
-        menu_data = json.load(f)
-        
-    flat_menu = flatten_menu(menu_data)
-
-    # Write flattened result to file
-    with open('flattened_menu.json', 'w', encoding='utf-8') as f:
-        json.dump(flat_menu, f, ensure_ascii=False, indent=2)
-    # Example usage with multiple categories
-    # # csv_to_json()
+    # 'common', 'mv', 'machiney', 'plc', 'panel_board'
+    for combination in l1:
+        menu = create_filtered_menu('menu.json', combination)
+        flat_menu = flatten_menu(menu)
+        print(flat_menu)
