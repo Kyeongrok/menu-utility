@@ -1,14 +1,15 @@
 from tkinter import Frame, Label, Button, Entry, StringVar
 
-from cookie.cookie_manager import CookieManager
-from style import FONTS, COLORS
 from api.api_caller import ApiCaller
+from config.config_model import ConfigManager
+from cookie.cookie_manager import CookieManager
+from style import COLORS, FONTS
 from utils.crypto import encrypt_text, decrypt_text
 
-class MainPage:
-    ENCRYPTION_KEY = "beautiful_rock_hello"
-    
+
+class LoginPage:
     def __init__(self, parent, base_url):
+        self.config = ConfigManager().load_config()
         self.parent = parent
         self.base_url = base_url
         self.cookie_manager = CookieManager()
@@ -22,14 +23,14 @@ class MainPage:
             id_value = self.id_var.get()
             pw_value = self.pw_var.get()
             result = api.login(id_value, pw_value)
-            
+
             # Save credentials to cookie with encrypted password
             self.cookie_manager.save_cookie("last_login_id", id_value)
-            encrypted_pw = encrypt_text(pw_value, self.ENCRYPTION_KEY)
+            encrypted_pw = encrypt_text(pw_value, self.config.encryption_key)
             self.cookie_manager.save_cookie("last_login_pw", encrypted_pw)
-            
+
             self.result_label.config(
-                text=f"로그인 성공\n액세스 토큰: {result['result']['accessJwt'][:20]}...", 
+                text=f"로그인 성공\n액세스 토큰: {result['result']['accessJwt'][:20]}...",
                 fg=COLORS["success"]
             )
         except Exception as e:
@@ -45,11 +46,11 @@ class MainPage:
         if saved_id:
             self.id_var.set(saved_id)
         if encrypted_pw:
-            decrypted_pw = decrypt_text(encrypted_pw, self.ENCRYPTION_KEY)
+            decrypted_pw = decrypt_text(encrypted_pw, self.config.encryption_key)
             self.pw_var.set(decrypted_pw)
 
         Label(content_area, text="메뉴 관리 시스템", font=FONTS["title1"], bg="white",
-            anchor="w").pack(fill="x", padx=20, pady=(10, 0))
+              anchor="w").pack(fill="x", padx=20, pady=(10, 0))
 
         # Login frame with border and padding
         login_frame = Frame(content_area, bg="white", bd=1, relief="solid")
@@ -70,7 +71,7 @@ class MainPage:
         self.result_label.grid(row=4, column=0, pady=10)
 
         login_button = Button(
-            login_frame, 
+            login_frame,
             text="로그인",
             bg=COLORS["button"]["bg"],
             fg=COLORS["button"]["fg"],

@@ -1,6 +1,5 @@
 from tkinter import Tk, Frame, Label
-from style import FONTS, COLORS
-from pages.main_page import MainPage
+from pages.login_page import LoginPage
 
 
 def init_gui():
@@ -32,7 +31,7 @@ def init_gui():
     main_frame.pack(fill="both", expand=True)
 
     # Create main page
-    MainPage(main_frame, "http://localhost:8080").create_main_page(main_frame)
+    LoginPage(main_frame, "http://localhost:8080").create_main_page(main_frame)
 
     window.mainloop()
 
