@@ -24,15 +24,20 @@ class LoginPage:
             pw_value = self.pw_var.get()
             result = api.login(id_value, pw_value)
 
-            # Save credentials to cookie with encrypted password
+            # Save credentials and token
             self.cookie_manager.save_cookie("last_login_id", id_value)
             encrypted_pw = encrypt_text(pw_value, self.config.encryption_key)
             self.cookie_manager.save_cookie("last_login_pw", encrypted_pw)
+            self.cookie_manager.save_cookie("access_token", result['result']['accessJwt'])
 
-            self.result_label.config(
-                text=f"로그인 성공\n액세스 토큰: {result['result']['accessJwt'][:20]}...",
-                fg=COLORS["success"]
-            )
+            # Clear current content and show menu list page
+            for widget in self.parent.winfo_children():
+                widget.destroy()
+            
+            from pages.menu_list_page import MenuListPage
+            menu_page = MenuListPage(self.parent)
+            menu_page.create_page(self.parent)
+
         except Exception as e:
             self.result_label.config(text=f"로그인 실패: {str(e)}", fg=COLORS["danger"])
 

@@ -6,7 +6,7 @@ class ApiCaller:
         self.base_url = base_url
         self.access_token = None
         
-    def login(self, username, password):
+    def login(self, username, password, otp):
         url = f"{self.base_url}/api/v1/users/signin"
         
         headers = {
@@ -16,6 +16,7 @@ class ApiCaller:
         payload = {
             'userId': username,
             'password': password,
+            'otp': otp
         }
         
         response = requests.post(

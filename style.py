@@ -1,5 +1,5 @@
 FONTS = {
-    "title1": ("Malgun Gothic", 24, "bold"),
+    "title1": ("Malgun Gothic", 18, "bold"),
     "button-lg": ("Malgun Gothic", 12),
 }
 

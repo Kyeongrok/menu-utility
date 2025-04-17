@@ -160,7 +160,7 @@ if __name__ == "__main__":
     menu_factory = MenuFactory()
     BASE_URL = "http://localhost:8080"
     api = ApiCaller(BASE_URL)
-    login_result = api.login(os.getenv("USERNAME"), os.getenv("PASSWORD"))
+    login_result = api.login(os.getenv("USERNAME"), os.getenv("PASSWORD"), 111222)
     print(login_result['result']['accessJwt'])
 
     for combination in l1:
