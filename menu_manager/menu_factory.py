@@ -60,7 +60,7 @@ class MenuFactory:
 
     def convert_to_json_menu(self, file_path: str):
         menu_data = self.menu_reader.read_menu(file_path)
-        with open('menu.json', 'w', encoding='utf-8') as jsonfile:
+        with open('../menu.json', 'w', encoding='utf-8') as jsonfile:
             return json.dump(menu_data, jsonfile, ensure_ascii=False, indent=2)
 
     def create_filtered_menu(self, file_name='menu.json', categories=['common']):
@@ -157,18 +157,26 @@ if __name__ == "__main__":
     ]
 
     # 'common', 'mv', 'machiney', 'plc', 'panel_board'
-    menu_factory = MenuFactory()
-    BASE_URL = "http://localhost:8080"
+    menu_factory = MenuFactory(CsvMenuReader())
+    BASE_URL = "https://bknd.machine365.ai"
     api = ApiCaller(BASE_URL)
-    login_result = api.login(os.getenv("USERNAME"), os.getenv("PASSWORD"), 111222)
-    print(login_result['result']['accessJwt'])
+    api.set_access_token("eyJhbGciOiJIUzI1NiJ9.eyJjb21wYW55SWQiOiJFRjZDOThCNy0xODE2LTQxNjItOUUyMy1ERUIwNDUwQ0IzOEUiLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJ1c2VySWQiOiIyQ0I4MUU1RC0wNDczLTRCNDctQjEyQy04NDkzRDcyMzI4OTEiLCJzdWIiOiJreWVvbmdyb2siLCJpYXQiOjE3NDQ5Mzc0NTAsImV4cCI6MTc0NDkzOTI1MH0.45Sbl_PaJu_FlSzzPNWe5fmSCyD-LnMhSRQ_2-nZ_EY")
+    # login_result = api.login(os.getenv("USERNAME"), os.getenv("PASSWORD"), 608196)
+    # print(login_result['result']['accessJwt'])
+    menu_factory.convert_to_json_menu('menu.csv')
 
-    for combination in l1:
+    for combination in [
+        ["mv", "plc"],
+        ["mv"],
+        ["machiney"],
+        ["plc"],
+        ["panel_board"],
+        ["mv", "machiney", "plc", "panel_board"]
+    ]:
         name = ', '.join(item.upper() for item in combination)
-        name = f"{name}메뉴"
+        name = f"{name.upper()}메뉴"
         combination.append("common")
-        # menu_factory.csv_menu_to_json_menu('menu.csv')
         menu = menu_factory.create_filtered_menu('menu.json', combination)
         flat_menu = flatten_menu(menu)
-        print(combination, json.dumps(flat_menu, ensure_ascii=False))
+        print(combination, name, json.dumps(flat_menu, ensure_ascii=False))
         # api.create_menu(name, name, flat_menu)

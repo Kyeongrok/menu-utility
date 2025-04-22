@@ -3,7 +3,7 @@ import json
 
 # Read menus from JSON file
 menus = {}
-with open('menu_by_company.json', 'r', encoding='utf-8') as f:
+with open('../menu_by_company.json', 'r', encoding='utf-8') as f:
     menus = json.load(f)
 
 def dfs_collect(node, result=None, path=None):

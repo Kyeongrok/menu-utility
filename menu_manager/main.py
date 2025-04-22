@@ -1,11 +1,7 @@
 import os
-from copy import deepcopy
 
 from api.api_caller import ApiCaller
-from domain.menu import Menu
-import json
 
-from menu_factory import MenuFactory
 
 if __name__ == "__main__":
 

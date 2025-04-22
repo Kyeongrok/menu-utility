@@ -21,9 +21,10 @@ def count_combinations(items):
 def print_combinations(items):
     for i in range(1, len(items) + 1):
         for c in combinations(items, i):
-            print(f'["{"\", \"".join(c)}"]')
+            print(c)
 
 
 if __name__ == '__main__':
     products = ['mv', 'machiney', 'plc', 'panel_board']
     print_combinations(products)
+    count_combinations(products)

@@ -1,18 +1,16 @@
-[project]
+[tool.poetry]
 name = "menu-manager"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Kyeongrok.kim",email = "kyeongrok.kim@e3view.com"}
-]
+authors = ["Kyeongrok.kim <kyeongrok.kim@e3view.com>"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "pydantic (>=2.11.3,<3.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)",
-    "cryptography (>=44.0.2,<45.0.0)"
-]
+packages = [{include = "menu_manager"}]
 
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.11.3"
+openpyxl = "^3.1.5"
+cryptography = "^44.0.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
