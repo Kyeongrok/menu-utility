@@ -145,7 +145,7 @@
     "parent_idx": 7,
     "항목": "알람 코드(PLC)",
     "코드": "PLC_ALARM_CODE",
-    "Route": "/plc/{place_holder}/manual"
+    "Route": "/plc/manual"
   },
   {
     "No": 14,
@@ -169,7 +169,7 @@
     "parent_idx": 13,
     "항목": "분석(MACHINE)",
     "코드": "MACHINE_ANALYSIS",
-    "Route": "/machine"
+    "Route": "/machine/analysis"
   },
   {
     "No": 16,
@@ -190,7 +190,7 @@
     "idx": 16,
     "parent_idx": 15,
     "항목": "현황(분전반)",
-    "코드": "PANELBOARD_STATUS",
+    "코드": "PANELBOARD_DASHBOARD",
     "Route": "/panel-board/daily"
   },
   {
@@ -378,7 +378,7 @@
     "idx": 33,
     "parent_idx": 30,
     "항목": "목표 Peak 관리",
-    "코드": "SETTINGS_PANELBOARD_TARGETPEAK",
+    "코드": "SETTING_PANELBOARD_TARGETPEAK",
     "Route": "/setting/panel-board/target-peak"
   },
   {

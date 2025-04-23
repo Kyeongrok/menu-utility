@@ -11,11 +11,11 @@ No,분류,idx,parent_idx,항목,코드,Route
 10,plc,9,7,차트(PLC),PLC_CHART,/plc/chart
 11,plc,10,7,기록(PLC),PLC_LOG,/plc/log
 12,plc,11,7,알람(PLC),PLC_ALARM_HISTORY,/plc/history
-13,plc,12,7,알람 코드(PLC),PLC_ALARM_CODE,/plc/{place_holder}/manual
+13,plc,12,7,알람 코드(PLC),PLC_ALARM_CODE,/plc/manual
 14,mv&machiney,13,0,설비,MACHINE,/machine
-15,mv&machiney,14,13,분석(MACHINE),MACHINE_ANALYSIS,/machine
+15,mv&machiney,14,13,분석(MACHINE),MACHINE_ANALYSIS,/machine/analysis
 16,panel_board,15,0,분전반,PANELBOARD,/panel-board
-17,panel_board,16,15,현황(분전반),PANELBOARD_STATUS,/panel-board/daily
+17,panel_board,16,15,현황(분전반),PANELBOARD_DASHBOARD,/panel-board/daily
 18,panel_board,17,15,기록(분전반),PANELBOARD_LOG,/panel-board/log
 19,panel_board,18,15,차트(분전반),PANELBOARD_CHART,/panel-board/chart
 20,panel_board,19,15,한전(분전반),PANELBOARD_KEPCO,/panel-board/kepco
@@ -32,7 +32,7 @@ No,분류,idx,parent_idx,항목,코드,Route
 31,common,30,23,분전반,SETTING_PANELBOARD,/setting/panel-board
 32,common,31,30,분전반 관리,SETTING_PANELBOARD_MANAGEMENT,/setting/panel-board/management
 33,common,32,30,분전반-설비 관리,SETTING_PANELBOARD_EQUIPMENT,/setting/panel-board/equipment
-34,common,33,30,목표 Peak 관리,SETTINGS_PANELBOARD_TARGETPEAK,/setting/panel-board/target-peak
+34,common,33,30,목표 Peak 관리,SETTING_PANELBOARD_TARGETPEAK,/setting/panel-board/target-peak
 35,common,34,23,사용자,SETTING_USER,/setting/user
 36,common,35,23,알림,SETTING_NOTIFICATION,/setting/notification
 37,common,36,23,모바일 기기,SETTING_MOBILEDEVICE,/setting/mobile-device
